@@ -6,7 +6,7 @@ const books = [
         series: "Бібліотека «Цитаделі»",
         genre: "Історія",
         isRead: false,
-        img: "/Images/1.jpg",
+        img: "./Images/1.jpg",
         writDate: 2013,
         publDate: 2020,
         publisher: "Астролябія",
