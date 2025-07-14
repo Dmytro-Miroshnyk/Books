@@ -2559,7 +2559,7 @@ const books = [
     title: "Доки світло не згасне назавжди",
     genre: "Фантастика",
     isRead: true,
-    img: "/Images/167.jpg",
+    img: "./Images/167.jpg",
     writDate: 2019,
     publDate: 2021,
     publisher: "КСД",
