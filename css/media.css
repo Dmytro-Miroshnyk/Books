@@ -1,8 +1,10 @@
-@media screen and (min-width: 428px) and (max-width: 767px){
+@media screen and (min-width: 350px) {
 .book-card {
-    max-width: 350px;
+    max-width: 700px;
     max-height: 600px;
-    flex-direction: column;
+}
+.book-card-image {
+    max-width: 300px; 
 }
 }
 
@@ -14,14 +16,26 @@
 .list-item {
     width: calc((100% - 45px) / 2);   
 }
+.book-card {
+    max-width: 1000px;
+    max-height: 800px;
 }
-
+.book-card-image {
+    max-width: 600px;
+}
+}
 @media screen and (min-width: 1158px) {
 .list-item {
     width: calc((100% - 45px) / 4);
 }
 .book-card {
-    width: 1000px;
-    height: 600px;
+    flex-direction: row;
+    max-width: 1200px;
+    height: 700px;
+    align-items: normal;
+    overflow: hidden;
+}
+.book-card-text {
+    overflow: scroll;
 }
 }

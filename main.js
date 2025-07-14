@@ -3861,8 +3861,8 @@ function onClick(evt) {
   console.log(currentItem);
   const instance = basicLightbox.create(`
   <div class="book-card">
-  <img src="${currentItem.img}"alt="${currentItem.title}" class="image">
-  <div> <h2>Автор: <a class="link" href="" >${currentItem.author}</a></h2>
+  <img src="${currentItem.img}"alt="${currentItem.title}" class="book-card-image">
+  <div class="book-card-text"> <h2>Автор: <a class="link" href="" >${currentItem.author}</a></h2>
   <h3>Назва: ${currentItem.title}</h3>
   <a>Серія: <a class="link" href="">${currentItem.series}</a></a>
   <p>Жанр: <a class="link" href="">${currentItem.genre}</a> </p>

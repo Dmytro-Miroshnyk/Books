@@ -72,9 +72,10 @@ main {
   text-decoration: none;
   padding: 20px 0;
   gap: 15px;
+  align-items: center;
 }
 .list-item {
-  max-width: 350px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   height: 550px;
@@ -97,11 +98,18 @@ main {
 }
 .book-card{
   display: flex;
+  flex-direction: column;
+  overflow: scroll;
   background-color: white;
   border-radius: 4px;
+  margin: 0px 25px;
+  align-items: center;
 }
-.book-card > img{
-  display: block;
+.book-card-image {
+  padding: 15px;
+}
+.book-card-text {
+  padding: 10px;
 }
 .link {
   text-decoration: none;
