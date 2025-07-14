@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  background-color: var(--white-background-color);
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+header {
+  background-color: bisque;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+main {
+  flex-grow: 1;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.main-container {
+  background-color: blanchedalmond;
+}
+.image {
+  padding: 15px;
+
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px 0;
+  gap: 15px;
+}
+.list-item {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  background-color: azure;
+  justify-items: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.list-item-wrap-main {
+  padding: 0px 10px;
+  justify-items: center;
+}
+.list-item-wrap-secondary {
+  margin-top: auto;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  justify-items: center;
+  align-items: flex-end;
+}
+.book-card{
+  display: flex;
+  background-color: white;
+  border-radius: 4px;
+}
+.book-card > img{
+  display: block;
+}
+.link {
+  text-decoration: none;
+  list-style-type: none;
+}

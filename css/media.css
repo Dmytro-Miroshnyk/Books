@@ -1,0 +1,27 @@
+@media screen and (min-width: 428px) and (max-width: 767px){
+.book-card {
+    max-width: 350px;
+    max-height: 600px;
+    flex-direction: column;
+}
+}
+
+@media screen and (min-width: 768px) {
+.list {
+    flex-direction: row;
+    flex-wrap: wrap;
+}    
+.list-item {
+    width: calc((100% - 45px) / 2);   
+}
+}
+
+@media screen and (min-width: 1158px) {
+.list-item {
+    width: calc((100% - 45px) / 4);
+}
+.book-card {
+    width: 1000px;
+    height: 600px;
+}
+}

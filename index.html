@@ -1,28 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+      rel="stylesheet"
+    />
+    <title>Моя бібліотека</title>
+  </head>
+  <body>
     <div class="page-container">
-        <header>
-            <div class="container">
-                <h1>Моя бібліотека</h1>
-                <p class="js-books-count"></p>
-            </div>
-        </header>
-        <main>    
-            <div class="container">
-                <ul class="js-container"></ul>
-            </div>
-            <script src="./main.js" ></script>
-        </main>
+      <header>
+        <div class="container">
+          <a href="./index.html">Моя бібліотека</a>
+          <p class="js-books-count"></p>
+        </div>
+      </header>
+      <main>
+        <div class="container main-container">
+          <ul class="js-container list"></ul>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
+        <script src="./main.js"></script>
+      </main>
     </div>
-</body>
+  </body>
 </html>
