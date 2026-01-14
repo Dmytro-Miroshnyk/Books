@@ -4063,7 +4063,7 @@ const books = [
     title: "Книга 2. Зимові вовки",
     series: "Ессекські Пси",
     genre: "Історичний роман",
-    isRead: false,
+    isRead: true,
     img: "./Images/263.jpg",
     writDate: 2023,
     publDate: 2025,
